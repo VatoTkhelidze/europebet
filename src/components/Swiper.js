@@ -40,8 +40,8 @@ const SwiperComponent = () => {
     >
       {array.map((item) => {
         return (
-          <SwiperSlide>
-            <SliderImg src={item.src} key={item.id} />
+          <SwiperSlide key={item.id}>
+            <SliderImg src={item.src} />
           </SwiperSlide>
         );
       })}

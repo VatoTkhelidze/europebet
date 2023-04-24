@@ -1,25 +1,28 @@
 import styled from "styled-components";
 import "./App.css";
 import Header from "./components/Header";
-import GamePrizeInstruction from "./components/PrizeInstruction";
-import RulesAndQuestions from "./components/Rules";
+import Newyearseries from "./newyearseries";
+import Finalstage from "./finalstage";
+import Rules from "./components/Rules";
 import Footer from "./components/Footer";
-
-
+import { Route, Routes } from "react-router-dom";
+import Main from "./components/Main";
 function App() {
   return (
     <>
       <Header />
       <MainContainer>
-        <GamePrizeInstruction/>
-        <RulesAndQuestions/>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/newyearseries" element={<Newyearseries />} />
+          <Route path="/finalstage" element={<Finalstage />} />
+        </Routes>
+        <Rules />
       </MainContainer>
-      <Footer/>
+      <Footer />
     </>
   );
 }
-
-
 
 const MainContainer = styled.div`
   display: flex;
@@ -27,8 +30,5 @@ const MainContainer = styled.div`
   padding-left: 16px;
   padding-right: 16px;
 `;
-
-
-
 
 export default App;

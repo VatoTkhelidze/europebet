@@ -1,33 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { useState } from "react";
-
 
 const GamePrizeInstruction = () => {
-const [active, setActive] = useState(0);
-
   return (
     <>
-      <DateContainer>
-        <Slots>სლოტები</Slots>
-        <DateSpan>10 სექტემბერი - 7 ნოემბერი</DateSpan>
-      </DateContainer>
-      <TravelSpan>მოიპოვე 10 საგზურიდან ერთ-ერთი</TravelSpan>
-      <PokerFest>მოხვდი პოკერის ფესტივალზე მალტაში</PokerFest>
-      <Cattegories>
-        <Cattegory>
-          <ButtonDate>28 ოქტ.-7 ნოემ.</ButtonDate>
-          <ButtonTitle>Cash Games</ButtonTitle>
-        </Cattegory>
-        <Cattegory>
-          <ButtonDate>10 ნოემ.-29 დეკ.</ButtonDate>
-          <ButtonTitle>New Year Series</ButtonTitle>
-        </Cattegory>
-        <Cattegory>
-          <ButtonDate>28 ოქტ.-7 ნოემ.</ButtonDate>
-          <ButtonTitle>Final Stage</ButtonTitle>
-        </Cattegory>
-      </Cattegories>
       <PrizeContainer>
         <InstructionHeader>
           <OrangeDiv></OrangeDiv>
@@ -189,15 +165,16 @@ const [active, setActive] = useState(0);
         </BriefInfo>
       </PrizeContainer>
       <AdditionalInfo>
-          <InfoSpan>
-            დამატებით შედგება, ქეშგეიმის, ტურნირების და სპინ პოკერის 12 Side
-            ლიდერბორდი
-          </InfoSpan>
-          <InfoSpanBrief>
-            * Side ლიდერბორდების შესახებ დეტალური ინფორმაცია იხილეთ პოკერის
-            ლობიში.
-          </InfoSpanBrief>
-        </AdditionalInfo>
+        <OrangeDiv></OrangeDiv>
+        <InfoSpan>
+          დამატებით შედგება, ქეშგეიმის, ტურნირების და სპინ პოკერის 12 Side
+          ლიდერბორდი
+        </InfoSpan>
+        <InfoSpanBrief>
+          * Side ლიდერბორდების შესახებ დეტალური ინფორმაცია იხილეთ პოკერის
+          ლობიში.
+        </InfoSpanBrief>
+      </AdditionalInfo>
     </>
   );
 };
@@ -216,17 +193,18 @@ const InfoSpan = styled.span`
   text-align: center;
   font-weight: bold;
   max-width: 293px;
+  margin-top: 20px;
 `;
 const AdditionalInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background: #2c3234;
   border-radius: 16px;
   width: 100%;
   margin-top: 24.17px;
-  padding: 24px 13.5px 16.17px 13.5px;
+  padding: 0 13.5px 16.17px 13.5px;
 `;
 
 const PokerLobbie = styled.a`
@@ -346,6 +324,8 @@ const PlaceAmountPrizeTextDiv = styled.div`
   width: 100%;
   padding-left: 13.99px;
   padding-right: 54px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 `;
 const LeaderboardInfoImg = styled.img``;
 const LeaderboardHodlerDiv = styled.div`
@@ -388,74 +368,6 @@ const PrizeContainer = styled.div`
   margin-top: 31px;
   border-radius: 16px;
 `;
-const ButtonDate = styled.span`
-  color: #ffffff;
-  font-size: 11px;
-  line-height: 17px;
-`;
-const ButtonTitle = styled.span`
-  color: #ffffff;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 700;
-`;
-const Cattegory = styled.button`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 9px;
-  width: 139px;
-  height: 77px;
-  background-color: #2c3234;
-  border: 0;
-  border-radius: 8px;
-  cursor: pointer;
-  :focus {
-    background: #ef5a21;
-    height: 90px;
-    width: 155px;
-    transition: 0.4s;
-  }
-`;
 
-const Cattegories = styled.div`
-  display: flex;
-  align-items: center;
-  border-radius: 8px;
-  margin-top: 26px;
-  background: #2c3234;
-  height: 77px;
-`;
-const PokerFest = styled.span`
-  font-size: 14px;
-  color: #ffffff;
-  opacity: 90%;
-  margin-top: 14px;
-`;
-const TravelSpan = styled.span`
-  font-size: 16px;
-  color: #ffffff;
-  margin-top: 20px;
-`;
-
-const DateSpan = styled.span`
-  font-size: 14px;
-  color: #ffffff;
-  opacity: 90%;
-`;
-const Slots = styled.button`
-  color: #ffffff;
-  background: #25292b;
-  padding: 4px 10px 5px 10px;
-  border: 0;
-  border-radius: 15px;
-  font-size: 12px;
-`;
-const DateContainer = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 8px;
-`;
 
 export default GamePrizeInstruction;
