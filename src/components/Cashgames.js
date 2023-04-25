@@ -15,7 +15,7 @@ const GamePrizeInstruction = () => {
               TOP20 ლიდერბორდი ჰოლდემში
             </LeaderboardHodlerSpan>
             <LeaderboardInfoImg
-              src="./assets/example-icon.png"
+              src="/assets/example-icon.png"
               alt="info icon"
             />
           </LeaderboardHodlerDiv>
