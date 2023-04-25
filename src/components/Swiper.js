@@ -36,6 +36,11 @@ const SwiperComponent = () => {
       scrollbar={{ draggable: true }}
       spaceBetween={16}
       width={154}
+      breakpoints={{
+        1024: {
+          width: 300
+        }
+      }}
       style={{ marginTop: "20px" }}
     >
       {array.map((item) => {

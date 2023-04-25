@@ -14,6 +14,9 @@ const newyearseries = () => {
           <DailyEventSpan>
             სერიის ფარგლებში, ყოველდღიურად <br /> გაიმართება 3 ივენთი:
           </DailyEventSpan>
+          <DailyEventSpanDesktop>
+            სერიის ფარგლებში, ყოველდღიურად გაიმართება 3 ივენთი:
+          </DailyEventSpanDesktop>
           <TimeDateDiv>
             <ClockDiv>
               <img src="./assets/clock-svgrepo-com.svg" alt="clock icon" />
@@ -22,7 +25,29 @@ const newyearseries = () => {
           </TimeDateDiv>
           <AcesDiv>
             <LeftAce src="./assets/promo-left-img-m.png" alt="left side aces" />
-            <img src="./assets/promo-right-img-m.png" alt="right side aces" />
+            <LeftAceDesktop
+              src="./assets/promo-left-img.png"
+              alt="left side aces"
+            />
+            <SecondTourSatelitesDivDesktop>
+              <InstructionOne>
+                * ყველა ტურნირზე მოხვედრა შესაძლებელია 0 ლარიდან.
+              </InstructionOne>
+              <InstructionOne>
+                ტურნირების სრული განრიგის სანახავად გადადი პოკერის ლობიში
+              </InstructionOne>
+              <PokerLobbie>
+                <PokerLobbieSpan>პოკერის ლობი</PokerLobbieSpan>
+              </PokerLobbie>
+            </SecondTourSatelitesDivDesktop>
+            <RightAce
+              src="./assets/promo-right-img-m.png"
+              alt="right side aces"
+            />
+            <RightAceDesktop
+              src="./assets/promo-right-img.png"
+              alt="right side aces"
+            />
           </AcesDiv>
         </TourSatelitesDiv>
       </GrayContainer>
@@ -38,56 +63,67 @@ const newyearseries = () => {
         </PokerLobbie>
       </SecondTourSatelitesDiv>
       <Prizes />
-      <DailyTours>ყოველდღიური ტურნირები და სატელიტები</DailyTours>
-      <TourContainer>
-        <OmahaDiv>
-          <TitleAmount>
-            <TitleSpan>Omaha Highrollers</TitleSpan>
-            <AmountSpan>40 000₾</AmountSpan>
-          </TitleAmount>
-          <BuyInDate>
-            <BuyInSpan>ბაი-ინი XXX₾</BuyInSpan>
-            <DateDiv>
-              <DateSpan>27 დეკემბერი</DateSpan>
-            </DateDiv>
-          </BuyInDate>
-        </OmahaDiv>
-        <OmahaDiv>
-          <TitleAmount>
-            <TitleSpan>Omaha Highrollers</TitleSpan>
-            <AmountSpan>40 000₾</AmountSpan>
-          </TitleAmount>
-          <BuyInDate>
-            <BuyInSpan>ბაი-ინი XXX₾</BuyInSpan>
-            <DateDiv>
-              <DateSpan>27 დეკემბერი</DateSpan>
-            </DateDiv>
-          </BuyInDate>
-        </OmahaDiv>
-        <OmahaDiv>
-          <TitleAmount>
-            <TitleSpan>Omaha Highrollers</TitleSpan>
-            <AmountSpan>40 000₾</AmountSpan>
-          </TitleAmount>
-          <BuyInDate>
-            <BuyInSpan>ბაი-ინი XXX₾</BuyInSpan>
-            <DateDiv>
-              <DateSpan>27 დეკემბერი</DateSpan>
-            </DateDiv>
-          </BuyInDate>
-        </OmahaDiv>
-      </TourContainer>
-      <InstructionOne>
-        * სამივე ტურნირის გამარჯვებულები მიიღებენ ბეჭდებს და ფინალურ ეტაპზე, The
-        Lord of the Rings ტურნირზე, იბრძოლებენ The Festival in Malta-ს საგზურის
-        მისაღებად.
-      </InstructionOne>
+      <SomeBox>
+        <DailyTours>ყოველდღიური ტურნირები და სატელიტები</DailyTours>
+        <DailyToursDesktop>
+          ᲧᲝᲕᲔᲚᲓᲦᲘᲣᲠᲘ ᲢᲣᲠᲜᲘᲠᲔᲑᲘ ᲓᲐ ᲡᲐᲢᲔᲚᲘᲢᲔᲑᲘ
+        </DailyToursDesktop>
+        <TourContainer>
+          <TwoOmaha>
+            <OmahaDiv>
+              <TitleAmount>
+                <TitleSpan>Omaha Highrollers</TitleSpan>
+                <AmountSpan>40 000₾</AmountSpan>
+              </TitleAmount>
+              <BuyInDate>
+                <BuyInSpan>ბაი-ინი XXX₾</BuyInSpan>
+                <DateDiv>
+                  <DateSpan>27 დეკემბერი</DateSpan>
+                </DateDiv>
+              </BuyInDate>
+            </OmahaDiv>
+            <OmahaDiv>
+              <TitleAmount>
+                <TitleSpan>Omaha Highrollers</TitleSpan>
+                <AmountSpan>40 000₾</AmountSpan>
+              </TitleAmount>
+              <BuyInDate>
+                <BuyInSpan>ბაი-ინი XXX₾</BuyInSpan>
+                <DateDiv>
+                  <DateSpan>27 დეკემბერი</DateSpan>
+                </DateDiv>
+              </BuyInDate>
+            </OmahaDiv>
+          </TwoOmaha>
+          <OmahaDivYellow>
+            <TitleAmount>
+              <TitleSpan>Omaha Highrollers</TitleSpan>
+              <AmountSpan>40 000₾</AmountSpan>
+            </TitleAmount>
+            <BuyInDate>
+              <BuyInSpan>ბაი-ინი XXX₾</BuyInSpan>
+              <DateDivYellow>
+                <DateSpanYellow>27 დეკემბერი</DateSpanYellow>
+              </DateDivYellow>
+            </BuyInDate>
+          </OmahaDivYellow>
+        </TourContainer>
+        <InstructionOne>
+          * სამივე ტურნირის გამარჯვებულები მიიღებენ ბეჭდებს და ფინალურ ეტაპზე,
+          The Lord of the Rings ტურნირზე, იბრძოლებენ The Festival in Malta-ს
+          საგზურის მისაღებად.
+        </InstructionOne>
+      </SomeBox>
       <AdditionalInfo>
         <OrangeDiv></OrangeDiv>
         <InfoSpan>
           დამატებით შედგება, ქეშგეიმის, ტურნირების და სპინ პოკერის 12 Side
           ლიდერბორდი
         </InfoSpan>
+        <InfoSpanDesktop>
+          ᲓᲐᲛᲐᲢᲔᲑᲘᲗ ᲨᲔᲓᲒᲔᲑᲐ, ᲥᲔᲨᲒᲔᲘᲛᲘᲡ, ᲢᲣᲠᲜᲘᲠᲔᲑᲘᲡ ᲓᲐ ᲡᲞᲘᲜ ᲞᲝᲙᲔᲠᲘᲡ <br/> 12 SIDE
+          ᲚᲘᲓᲔᲠᲑᲝᲠᲓᲘ
+        </InfoSpanDesktop>
         <InfoSpanBrief>
           * Side ლიდერბორდების შესახებ დეტალური ინფორმაცია იხილეთ პოკერის
           ლობიში.
@@ -96,6 +132,21 @@ const newyearseries = () => {
     </MainContainer>
   );
 };
+
+const SomeBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media (min-width: 1440px) {
+    align-items: center;
+    background: #171718;
+    padding: 25px;
+    margin-top: 25px;
+    border: 4px solid #25292b;
+    border-radius: 16px;
+  }
+`;
+
 const InfoSpanBrief = styled.span`
   font-size: 12px;
   color: #ffffff;
@@ -103,7 +154,24 @@ const InfoSpanBrief = styled.span`
   margin-top: 10.33px;
   width: 270px;
   text-align: center;
+  @media (min-width: 1440px) {
+    width: unset;
+  }
 `;
+
+const InfoSpanDesktop = styled.span`
+  display: none;
+  @media (min-width: 1440px) {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+`;
+
 const InfoSpan = styled.span`
   font-size: 16px;
   line-height: 20px;
@@ -112,6 +180,9 @@ const InfoSpan = styled.span`
   font-weight: bold;
   max-width: 293px;
   margin-top: 20px;
+  @media (min-width: 1440px) {
+    display: none;
+  }
 `;
 const AdditionalInfo = styled.div`
   display: flex;
@@ -125,12 +196,28 @@ const AdditionalInfo = styled.div`
   padding: 0 13.5px 16.17px 13.5px;
 `;
 
+const DateSpanYellow = styled.span`
+  font-size: 14px;
+  line-height: 17px;
+  color: #094b3d;
+  font-weight: bold;
+`;
+
 const DateSpan = styled.span`
   font-size: 14px;
   line-height: 17px;
   color: #ffffff;
   font-weight: bold;
 `;
+
+const DateDivYellow = styled.div`
+  display: flex;
+  align-items: center;
+  background: #d7c860;
+  border-radius: 15px 15px 0 15px;
+  padding: 4px 12px;
+`;
+
 const DateDiv = styled.div`
   display: flex;
   align-items: center;
@@ -167,6 +254,35 @@ const TitleAmount = styled.div`
   flex-direction: column;
   gap: 9px;
 `;
+
+const TwoOmaha = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 17px;
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+`;
+
+const OmahaDivYellow = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  width: 100%;
+  height: 85px;
+  background-image: url("./assets/final-info-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+`;
+
 const OmahaDiv = styled.div`
   display: flex;
   align-items: center;
@@ -176,8 +292,12 @@ const OmahaDiv = styled.div`
   height: 85px;
   background-image: url("./assets/tournament-bg-m.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border-radius: 12px;
+  @media (min-width: 1440px) {
+    background-size: cover;
+    width: 100%;
+  }
 `;
 const TourContainer = styled.div`
   position: relative;
@@ -188,12 +308,28 @@ const TourContainer = styled.div`
   margin-top: 19px;
   margin-bottom: 16px;
 `;
+
+const DailyToursDesktop = styled.span`
+  display: none;
+  @media (min-width: 1440px) {
+    display: inline;
+    margin: 0;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+`;
+
 const DailyTours = styled.span`
   color: #ffffff;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   margin-top: 24px;
+  @media (min-width: 1440px) {
+    display: none;
+  }
 `;
 const PokerLobbieSpan = styled.span`
   color: #ffffff;
@@ -222,10 +358,56 @@ const GrayContainer = styled.div`
   background: #2c3234;
   width: 100%;
   border-radius: 16px 16px 0 0;
+  @media (min-width: 1440px) {
+    border-radius: 16px;
+  }
 `;
+
+const LeftAceDesktop = styled.img`
+  display: none;
+  @media (min-width: 1440px) {
+    display: inline;
+    border-radius: 12px;
+  }
+`;
+
 const LeftAce = styled.img`
   border-radius: 16px;
+  @media (min-width: 1440px) {
+    display: none;
+  }
 `;
+
+const RightAceDesktop = styled.img`
+  display: none;
+  @media (min-width: 1440px) {
+    display: inline;
+    border-radius: 12px;
+  }
+`;
+
+const RightAce = styled.img`
+  border-radius: 16px;
+  @media (min-width: 1440px) {
+    display: none;
+  }
+`;
+
+const SecondTourSatelitesDivDesktop = styled.div`
+  display: none;
+  @media (min-width: 1440px) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: transparent;
+    border-radius: 0 0 16px 16px;
+    padding: 12px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+`;
+
 const SecondTourSatelitesDiv = styled.div`
   display: flex;
   align-items: center;
@@ -235,6 +417,9 @@ const SecondTourSatelitesDiv = styled.div`
   border-radius: 0 0 16px 16px;
   padding: 12px 12px 20px 12px;
   gap: 10px;
+  @media (min-width: 1440px) {
+    display: none;
+  }
 `;
 const OrangeDiv = styled.div`
   width: 125px;
@@ -277,6 +462,20 @@ const AcesDiv = styled.div`
   width: 100%;
   border-radius: 16px;
 `;
+
+const DailyEventSpanDesktop = styled.div`
+  display: none;
+  @media (min-width: 1440px) {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 20px;
+    font-weight: bold;
+    margin-top: 14px;
+    text-align: center;
+  }
+`;
+
 const DailyEventSpan = styled.span`
   font-size: 16px;
   color: #ffffff;
@@ -284,6 +483,9 @@ const DailyEventSpan = styled.span`
   font-weight: bold;
   margin-top: 14px;
   text-align: center;
+  @media (min-width: 1440px) {
+    display: none;
+  }
 `;
 const TourSatelites = styled.div`
   display: flex;
@@ -294,6 +496,9 @@ const TourSatelites = styled.div`
   border-radius: 16px 16px 0 0;
   height: 67px;
   width: 100%;
+  @media (min-width: 1440px) {
+    border-radius: 10px 10px 0 0;
+  }
 `;
 const TourSateliteSpan = styled.span`
   color: #ffffff;
@@ -310,6 +515,10 @@ const TourSatelitesDiv = styled.div`
   width: 100%;
   border-radius: 16px;
   background: black;
+  @media (min-width: 1440px) {
+    border: 4px solid #2c3234;
+    background: #171718;
+  }
 `;
 const MainContainer = styled.div`
   display: flex;
