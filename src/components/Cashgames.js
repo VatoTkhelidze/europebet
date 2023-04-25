@@ -56,7 +56,7 @@ const GamePrizeInstruction = () => {
               })}
             <FestivalPrize>
               <OrangeSideDiv></OrangeSideDiv>
-              <PlaneIcon src="/assets/travel-icon-sm.png" />
+              <PlaneIcon src={process.env.PUBLIC_URL + "/assets/travel-icon-sm.png"} />
               <PrizeTitle>The Festival in Malta-ს საგზური</PrizeTitle>
               <PrizeTitleDesktop>
                 The Festival in Malta-ს საგზური
@@ -64,7 +64,7 @@ const GamePrizeInstruction = () => {
             </FestivalPrize>
             <SpecTourPrize>
               <OrangeSideDiv></OrangeSideDiv>
-              <PlaneIcon src="/assets/ticket-icon-sm.png" />
+              <PlaneIcon src={process.env.PUBLIC_URL + "/assets/ticket-icon-sm.png"} />
               <PrizeTitle>
                 სპეციალური ტურნირის „Cashgame Sharks” ბილეთი, სადაც გათამაშდება
                 The Festival in Malta-ს საგზური
@@ -76,7 +76,7 @@ const GamePrizeInstruction = () => {
             </SpecTourPrize>
             <FestivalPrize>
               <OrangeSideDiv></OrangeSideDiv>
-              <GiftcardPrize src="/assets/giftcard-white.svg" />
+              <GiftcardPrize src={process.env.PUBLIC_URL + "/assets/giftcard-white.svg"} />
               <PrizeTitle>„ალტას“ ვაუჩერი</PrizeTitle>
               <PrizeTitleDesktop>ტექნიკის მაღაზიის ვაუჩერი</PrizeTitleDesktop>
             </FestivalPrize>
@@ -86,7 +86,7 @@ const GamePrizeInstruction = () => {
               TOP20 ლიდერბორდი ჰოლდემში
             </LeaderboardHodlerSpan>
             <LeaderboardInfoImg
-              src="/assets/example-icon.png"
+              src={process.env.PUBLIC_URL + "/assets/example-icon.png"}
               alt="info icon"
             />
           </LeaderboardHodlerDiv>
@@ -127,7 +127,7 @@ const GamePrizeInstruction = () => {
               })}
             <FestivalPrize>
               <OrangeSideDiv></OrangeSideDiv>
-              <PlaneIcon src="/assets/travel-icon-sm.png" />
+              <PlaneIcon src={process.env.PUBLIC_URL + "/assets/travel-icon-sm.png"} />
               <PrizeTitle>The Festival in Malta-ს საგზური</PrizeTitle>
               <PrizeTitleDesktop>
                 The Festival in Malta-ს საგზური
@@ -135,7 +135,7 @@ const GamePrizeInstruction = () => {
             </FestivalPrize>
             <SpecTourPrize>
               <OrangeSideDiv></OrangeSideDiv>
-              <PlaneIcon src="/assets/ticket-icon-sm.png" />
+              <PlaneIcon src={process.env.PUBLIC_URL + "/assets/ticket-icon-sm.png"} />
               <PrizeTitle>
                 სპეციალური ტურნირის „Cashgame Sharks” ბილეთი, სადაც გათამაშდება
                 The Festival in Malta-ს საგზური
@@ -147,7 +147,7 @@ const GamePrizeInstruction = () => {
             </SpecTourPrize>
             <FestivalPrize>
               <OrangeSideDiv></OrangeSideDiv>
-              <GiftcardPrize src="/assets/giftcard-white.svg" />
+              <GiftcardPrize src={process.env.PUBLIC_URL + "/assets/giftcard-white.svg"} />
               <PrizeTitle>„ალტას“ ვაუჩერი</PrizeTitle>
               <PrizeTitleDesktop>ტექნიკის მაღაზიის ვაუჩერი</PrizeTitleDesktop>
             </FestivalPrize>
