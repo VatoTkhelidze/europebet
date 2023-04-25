@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/europebet/static/css/main.1507a000.css",
+    "main.js": "/europebet/static/js/main.a44efc51.js",
+    "index.html": "/europebet/index.html",
+    "main.1507a000.css.map": "/europebet/static/css/main.1507a000.css.map",
+    "main.a44efc51.js.map": "/europebet/static/js/main.a44efc51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1507a000.css",
+    "static/js/main.a44efc51.js"
+  ]
+}
