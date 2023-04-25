@@ -8,15 +8,15 @@ const RulesAndQuestions = () => {
       <FAQ>
         <RuleDiv>
           <Question>როდის იწყება და რა ფორმატით გაიმართება აქცია</Question>
-          <img src="./assets/DownArrow.svg" alt="arrow" />
+          <img src={process.env.PUBLIC_URL + "./assets/DownArrow.svg"} alt="arrow" />
         </RuleDiv>
         <RuleDiv>
           <Question>როგორ მივიღო აქციაში მონაწილეობა?</Question>
-          <img src="./assets/DownArrow.svg" alt="arrow" />
+          <img src={process.env.PUBLIC_URL + "./assets/DownArrow.svg"} alt="arrow" />
         </RuleDiv>
         <RuleDiv>
           <Question>სხვადასხვა</Question>
-          <img src="./assets/DownArrow.svg" alt="arrow" />
+          <img src={process.env.PUBLIC_URL + "./assets/DownArrow.svg"} alt="arrow" />
         </RuleDiv>
       </FAQ>
     </>
