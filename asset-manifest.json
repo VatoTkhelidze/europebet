@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/europebet/static/css/main.1507a000.css",
-    "main.js": "/europebet/static/js/main.d93c987a.js",
+    "main.js": "/europebet/static/js/main.f361656f.js",
     "index.html": "/europebet/index.html",
     "main.1507a000.css.map": "/europebet/static/css/main.1507a000.css.map",
-    "main.d93c987a.js.map": "/europebet/static/js/main.d93c987a.js.map"
+    "main.f361656f.js.map": "/europebet/static/js/main.f361656f.js.map"
   },
   "entrypoints": [
     "static/css/main.1507a000.css",
-    "static/js/main.d93c987a.js"
+    "static/js/main.f361656f.js"
   ]
 }
