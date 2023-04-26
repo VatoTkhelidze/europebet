@@ -4,7 +4,7 @@ import styled from "styled-components";
 const SignIn = () => {
   return (
     <Header>
-      <OrangeCircle src="./assets/logo.png" alt="logo" />
+      <OrangeCircle src={process.env.PUBLIC_URL + "/assets/logo.png"} alt="logo" />
       <Signing>
         <SignUp>Sign Up</SignUp>
         <SignButton>Sign In</SignButton>

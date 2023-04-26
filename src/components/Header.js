@@ -10,7 +10,7 @@ const HeaderComponent = () => {
     <>
       <SignIn />
       <MidContainer>
-        <BannerImg src="./assets/banner.jpg" alt="banner main image" />
+        <BannerImg src={process.env.PUBLIC_URL + "/assets/banner.jpg"} alt="banner main image" />
       </MidContainer>
       <MainHeaderDiv>
         <DateContainer>

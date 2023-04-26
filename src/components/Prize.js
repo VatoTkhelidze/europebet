@@ -15,7 +15,7 @@ const PrizeComponent = () => {
           ქულების დაგროვების მექანიკა
         </LeaderboardHodlerSpan>
         <ArrowDiv>
-          <LeaderboardInfoImg src={process.env.PUBLIC_URL + "./assets/DownArrow.svg"} alt="info icon" />
+          <LeaderboardInfoImg src={process.env.PUBLIC_URL + "/assets/DownArrow.svg"} alt="info icon" />
         </ArrowDiv>
       </LeaderboardHodlerDiv>
       <PlaceAmountPrizeTextDiv>
@@ -92,12 +92,12 @@ const PrizeComponent = () => {
         <SomeOtherBox>
           <FestivalPrize>
             <OrangeSideDiv></OrangeSideDiv>
-            <PlaneIcon src={process.env.PUBLIC_URL + "./assets/travel-icon-sm.png"} />
+            <PlaneIcon src={process.env.PUBLIC_URL + "/assets/travel-icon-sm.png"} />
             <PrizeTitle>The Festival in Malta-ს საგზური</PrizeTitle>
           </FestivalPrize>
           <SpecTourPrize>
             <OrangeSideDiv></OrangeSideDiv>
-            <PlaneIcon src={process.env.PUBLIC_URL + "./assets/ticket-icon-sm.png"} />
+            <PlaneIcon src={process.env.PUBLIC_URL + "/assets/ticket-icon-sm.png"} />
             <PrizeTitle>
               სპეციალური ტურნირის „Cashgame Sharks” ბილეთი, სადაც გათამაშდება
               The Festival in Malta-ს საგზური
@@ -105,7 +105,7 @@ const PrizeComponent = () => {
           </SpecTourPrize>
           <FestivalPrize>
             <OrangeSideDiv></OrangeSideDiv>
-            <GiftcardPrize src={process.env.PUBLIC_URL + "./assets/giftcard-white.svg"} />
+            <GiftcardPrize src={process.env.PUBLIC_URL + "/assets/giftcard-white.svg"} />
             <PrizeTitle>„ალტას“ ვაუჩერი</PrizeTitle>
           </FestivalPrize>
         </SomeOtherBox>

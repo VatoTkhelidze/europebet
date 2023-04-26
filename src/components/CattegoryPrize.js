@@ -13,14 +13,14 @@ const CattegoryPrizeComponent = () => {
       <PrizeBox>
         <SinglePrizeBox>
           <PrizeIcon
-            src={process.env.PUBLIC_URL + "./assets/final-item-ticket-icon.png"}
+            src={process.env.PUBLIC_URL + "/assets/final-item-ticket-icon.png"}
             alt="prize icon"
           />
           <SinglePrizeSpan>ორმხრივი ავიაბილეთი</SinglePrizeSpan>
         </SinglePrizeBox>
         <SinglePrizeBox>
           <PrizeIcon
-            src={process.env.PUBLIC_URL + "./assets/final-item-hotel-icon.png"}
+            src={process.env.PUBLIC_URL + "/assets/final-item-hotel-icon.png"}
             alt="prize icon"
           />
           <SinglePrizeSpan>
@@ -29,7 +29,7 @@ const CattegoryPrizeComponent = () => {
         </SinglePrizeBox>
         <SinglePrizeBox>
           <PrizeIcon
-            src={process.env.PUBLIC_URL + "./assets/final-item-event-icon.png"}
+            src={process.env.PUBLIC_URL + "/assets/final-item-event-icon.png"}
             alt="prize icon"
           />
           <SinglePrizeSpan>
@@ -38,14 +38,14 @@ const CattegoryPrizeComponent = () => {
         </SinglePrizeBox>
         <SinglePrizeBox>
           <PrizeIcon
-            src={process.env.PUBLIC_URL + "./assets/final-item-ticket-icon.png"}
+            src={process.env.PUBLIC_URL + "/assets/final-item-ticket-icon.png"}
             alt="prize icon"
           />
           <SinglePrizeSpan>სასტუმრო</SinglePrizeSpan>
         </SinglePrizeBox>
         <SinglePrizeBox>
           <PrizeIcon
-            src={process.env.PUBLIC_URL + "./assets/final-item-ticket-icon.png"}
+            src={process.env.PUBLIC_URL + "/assets/final-item-ticket-icon.png"}
             alt="prize icon"
           />
           <SinglePrizeSpan>€500 სახარჯი ფული</SinglePrizeSpan>

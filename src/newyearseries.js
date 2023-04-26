@@ -19,14 +19,14 @@ const newyearseries = () => {
           </DailyEventSpanDesktop>
           <TimeDateDiv>
             <ClockDiv>
-              <img src={process.env.PUBLIC_URL + "./assets/clock-svgrepo-com.svg"} alt="clock icon" />
+              <img src={process.env.PUBLIC_URL + "/assets/clock-svgrepo-com.svg"} alt="clock icon" />
             </ClockDiv>
             <TimeDateSpan>19:00/19:30/20:00</TimeDateSpan>
           </TimeDateDiv>
           <AcesDiv>
-            <LeftAce src={process.env.PUBLIC_URL + "./assets/promo-left-img-m.png"} alt="left side aces" />
+            <LeftAce src={process.env.PUBLIC_URL + "/assets/promo-left-img-m.png"} alt="left side aces" />
             <LeftAceDesktop
-              src={process.env.PUBLIC_URL + "./assets/promo-left-img.png"}
+              src={process.env.PUBLIC_URL + "/assets/promo-left-img.png"}
               alt="left side aces"
             />
             <SecondTourSatelitesDivDesktop>
@@ -41,11 +41,11 @@ const newyearseries = () => {
               </PokerLobbie>
             </SecondTourSatelitesDivDesktop>
             <RightAce
-              src={process.env.PUBLIC_URL + "./assets/promo-right-img-m.png"}
+              src={process.env.PUBLIC_URL + "/assets/promo-right-img-m.png"}
               alt="right side aces"
             />
             <RightAceDesktop
-              src={process.env.PUBLIC_URL + "./assets/promo-right-img.png"}
+              src={process.env.PUBLIC_URL + "/assets/promo-right-img.png"}
               alt="right side aces"
             />
           </AcesDiv>

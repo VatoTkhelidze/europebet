@@ -7,7 +7,7 @@ const finalstage = () => {
     <>
       <MainContainer>
         <MainFirst>
-          <MaltaBanner src={process.env.PUBLIC_URL + "./assets/malta-image.webp"} alt="malta banner" />
+          <MaltaBanner src={process.env.PUBLIC_URL + "/assets/malta-image.webp"} alt="malta banner" />
           <MaltaFestSpan>გაემგზავრე The Festival in Malta-ზე!</MaltaFestSpan>
           <MaltaFestSpanDesktop>
             ᲒᲐᲔᲛᲒᲖᲐᲕᲠᲔ THE FESTIVAL IN MALTA-ᲖᲔ!
@@ -81,7 +81,7 @@ const finalstage = () => {
                     </TravelInfoSpan>
                   </SingleTravelTextDiv>
                   <SingleTravelIcon
-                    src={process.env.PUBLIC_URL + "./assets/poker-item-1-ticket-icon.png"}
+                    src={process.env.PUBLIC_URL + "/assets/poker-item-1-ticket-icon.png"}
                     alt="single travelbox icon"
                   />
                 </SingleTravelPrizeBox>
@@ -95,7 +95,7 @@ const finalstage = () => {
                     </TravelInfoSpan>
                   </SingleTravelTextDiv>
                   <SingleTravelIcon
-                    src={process.env.PUBLIC_URL + "./assets/poker-item-1-ticket-icon.png"}
+                    src={process.env.PUBLIC_URL + "/assets/poker-item-1-ticket-icon.png"}
                     alt="single travelbox icon"
                   />
                 </SingleTravelPrizeBox>
@@ -125,7 +125,7 @@ const finalstage = () => {
         <MysticKeys>
           <AcattegoryTravelPrizeBox>
             <OrangeDivWide />
-            <MysticKeyImg src={process.env.PUBLIC_URL + "./assets/mystic-keys.png"} alt="mystic keys" />
+            <MysticKeyImg src={process.env.PUBLIC_URL + "/assets/mystic-keys.png"} alt="mystic keys" />
           </AcattegoryTravelPrizeBox>
           <ScrollDiv>
             <SomeSpan>
