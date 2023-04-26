@@ -52,7 +52,7 @@ const finalstage = () => {
                   .fill({
                     game: "Holdem Grinders",
                     prize: "C კატეგორიის 1 საგზური",
-                    image: "./assets/poker-item-1-ticket-icon.png",
+                    image: "/assets/poker-item-1-ticket-icon.png",
                   })
                   .map((item) => {
                     return (
