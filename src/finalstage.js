@@ -52,8 +52,7 @@ const finalstage = () => {
                   .fill({
                     game: "Holdem Grinders",
                     prize: "C კატეგორიის 1 საგზური",
-                    image: "/assets/poker-item-1-ticket-icon.png",
-                  })
+                  })  
                   .map((item) => {
                     return (
                       <SingleTravelPrizeBox>
@@ -61,7 +60,7 @@ const finalstage = () => {
                           <TravelTitleSpan>„{item.game}”</TravelTitleSpan>
                           <TravelInfoSpan>{item.prize}</TravelInfoSpan>
                         </SingleTravelTextDiv>
-                        <SingleTravelIcon src={item.image} alt={item.prize} />
+                        <SingleTravelIcon src={process.env.PUBLIC_URL + "/assets/poker-item-1-ticket-icon.png"} alt={item.prize} />
                       </SingleTravelPrizeBox>
                     );
                   })}
