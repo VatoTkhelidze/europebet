@@ -12,22 +12,37 @@ function App() {
   return (
     <>
       <Container>
-        <PageDiv>
-          <Header />
-          <MainContainer>
-            <Routes>
-              <Route path="/" element={<Main />} />
-              <Route path="/newyearseries" element={<Newyearseries />} />
-              <Route path="/finalstage" element={<Finalstage />} />
-            </Routes>
-            <Rules />
-          </MainContainer>
-          <Footer />
-        </PageDiv>
+        <MainBackground>
+          <PageDiv>
+            <Header />
+            <MainContainer>
+              <Routes>
+                <Route path="/" element={<Main />} />
+                <Route path="/newyearseries" element={<Newyearseries />} />
+                <Route path="/finalstage" element={<Finalstage />} />
+              </Routes>
+              <Rules />
+            </MainContainer>
+            <Footer />
+          </PageDiv>
+        </MainBackground>
       </Container>
     </>
   );
 }
+const MainBackground = styled.div`
+  @media (min-width: 1440px) {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+`;
 
 const PageDiv = styled.div`
   width: 100%;
@@ -38,6 +53,25 @@ const PageDiv = styled.div`
     background: #1c1d1e;
     margin-top: 30px;
     border-radius: 13px;
+    max-height: 739px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #2c3234;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #f05a22;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
   }
 `;
 
@@ -54,10 +88,13 @@ const MainContainer = styled.div`
 
 const Container = styled.div`
   @media (min-width: 1440px) {
-    background: blueviolet;
+    background-image: url("./assets/main-background-image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    position: relative;
   }
 `;
 
